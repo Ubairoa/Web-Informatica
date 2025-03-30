@@ -1,0 +1,256 @@
+/* General */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0px; /* Espacio fuera del borde de un elemento */
+    padding: 0px; /* Espacio dentro del borde de un elemento (eliminamos padding para evitar márgenes inesperados) */
+    background-color: #F3F6FA; /* Color fondo */
+    color: #333; /* Color texto */
+    line-height: 1.5; /* Espacio entre líneas de párrafo */ 
+    text-align: center; 
+}
+
+/* Enlaces */
+a {
+    color: #0288d1; /* Color de los enlaces */
+    font-size: 20px;
+}
+
+.imagen {
+    background-image: url("pantalla.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh; /* Garantiza que la imagen ocupe al menos el 100% de la altura de la ventana */
+}
+
+/* Encabezado principal */
+h1 {
+    color: #A8DADC;
+    border-bottom: 5px solid #2a9d8f;
+    display: inline-block;
+    padding-top: 100px; /* Eliminado o ajustado */
+    text-transform: uppercase; /* Texto a mayúsculas */
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0288d1; /* Color de los enlaces */
+}
+/* Subtítulos */
+h2, h3 {
+    color: #A8DADC;
+    margin-top: 30px;
+    border-bottom: 2px solid #2a9d8f; /* Línea debajo del subtítulo */
+    display: inline-block;
+    padding-bottom: 5px;
+    font-family: 'Poppins', Times, serif;
+    font-size: 35px;
+}
+
+p{
+    background-color: white;
+    border:5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #6200ffb3;
+    margin: 30px;
+    margin-right: 30px;
+    padding:10px;
+}
+#unis table{
+    text-align: center;
+    border-collapse: collapse;
+}
+#unis tr{
+    border-color: #0288d1;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+}
+#unis th{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+table{
+    margin:auto;
+}
+#videos table{
+    border: 5px solid #438be0; /* Azul fuerte */
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #E09743; /* Brillo azul */
+    background-color: white;
+}
+#videos th,td{
+    border: 3px solid #438be0;
+    padding: 10px;
+    color: black;
+}
+/* Categorías */
+.categorias {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    justify-content: space-around;
+    text-size-adjust: 17px;
+    padding-bottom: 105px;
+}
+
+.categorias li {
+    color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+#SALIDAS{
+    text-align: center;
+    list-style-position: inside;
+}
+#SALIDAS ol li{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+#SALIDAS ol{
+    padding-top:10px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#SALIDAS ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 15px;
+    text-transform:capitalize;
+}
+.azul{
+    background-color: #d9e0ea;
+    color: #1A1A1A ;
+}
+.azul1{
+    background-color: #e0e8f0;
+    color: #332B2B ;
+}
+.azul2{
+    background-color: #c9d8e8;
+    color: #4C3D3D ;
+}
+.azul3{
+    background-color: #b2c8e0;
+    color: #664F4F;
+}
+.azul4{
+    background-color: #9bb8d8;
+    color: #805F5F;
+}
+.azul5{
+    background-color: #84a8d0;
+    color: #996F6F;
+}
+.azul6{
+    background-color: #6d98c8;
+    color: #A8573A;
+}
+.azul7{
+    background-color: #5688c0;
+    color: #CC9090;
+}
+.azul8{
+    background-color: #3f78b8;
+    color: #E6A0A0 ;
+}
+.azul9{
+    background-color: #2868b0;
+    color: #FFD0D0 ;
+}
+
+/* Centrar la tabla y definir un ancho específico */
+#PLAN table {
+    width: 50%; /* Puedes ajustar este valor según tus necesidades */
+    margin: auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados se apliquen correctamente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para las celdas de encabezado y datos */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilos para las filas */
+.fila-1 {
+    background-color: #E8F5E9; /* Verde claro */
+}
+
+.fila-2 {
+    background-color: #E6E6FA; /* Lavender (Segundo, te gustó) */
+}
+
+.fila-3 {
+    background-color: #FFFACD; /* Lemon Chiffon (Tercero, te gustó) */
+}
+
+.fila-4 {
+    background-color: #FFEBEE; /* Rojo claro */
+}
+
+/* Estilos para las listas dentro de las celdas */
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Estilos para el título de la sección */
+#PLAN h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el título */
+}
+ul{
+    list-style: none;
+}
+#PERFIL ol{
+    list-style-position: inside;
+    font-size: 27px;
+	border:5px;
+    box-shadow: #003366;
+	margin-left:150px;
+	margin-right:150px;
+}
+#PERFIL ul{
+    list-style: circle;
+    list-style-position: inside;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-left:100px;
+	margin-right:100px;
+}
+#PERFIL ol li{
+	display: block;
+    box-shadow: 0 0 15px rgba(0, 132, 255, 0.8); /* Brillo azul */
+    padding: 10px;
+    margin: 10px 0; /* Espaciado entre elementos */
+    background-color: white;
+	border-radius:7px;
+}
+#PERFIL ul li{
+	display: block;
+    box-shadow: 0 0 10px #FFB570; /* Brillo gris */
+    padding: 10px;
+    margin: 10px 0; /* Espaciado entre elementos */
+    background-color: white;
+}
